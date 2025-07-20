@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>2048 - 大胆设计版</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>2048</h1>
+      <div class="score-container">
+        <div>分数</div>
+        <div id="score">0</div>
+      </div>
+      <button id="restart-btn">重新开始</button>
+    </header>
+    <main>
+      <div class="game-board" id="game-board">
+        <!-- 游戏格子由 JS 动态生成 -->
+      </div>
+    </main>
+    <footer>
+      <p>用方向键或滑动来移动方块，合并相同数字，挑战更高分数！</p>
+    </footer>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html> 
